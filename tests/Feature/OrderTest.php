@@ -45,6 +45,7 @@ class OrderTest extends TestCase
             ],
             [
                 'Authorization' => sprintf('Bearer %s', $token),
+                'Accept' => 'application/json',
             ]
         );
 
@@ -71,6 +72,7 @@ class OrderTest extends TestCase
             ],
             [
                 'Authorization' => sprintf('Bearer %s', $token),
+                'Accept' => 'application/json',
             ]
         );
 
