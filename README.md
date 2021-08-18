@@ -23,7 +23,7 @@ Migrate database, seed products and setup queue (default queue driver is 'databa
 php artisan migrate -seed
 ```
 
-Note: After setup, JWT token must be generated after.
+Note: After setup, JWT secret must be generated after.
 
 ```shell
 php artisan jwt:secret
