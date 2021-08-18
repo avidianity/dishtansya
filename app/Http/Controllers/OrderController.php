@@ -22,7 +22,6 @@ class OrderController extends Controller
             'quantity' => ['required', 'numeric'],
         ]);
 
-        $user = $request->user();
         $product = Product::findOrFail($data['product_id']);
 
         if ($product->available_stock < $data['quantity']) {
