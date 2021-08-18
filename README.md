@@ -17,6 +17,12 @@ Install dependencies
 composer install
 ```
 
+Migrate database, seed products and setup queue (default queue driver is 'database')
+
+```shell
+php artisan migrate -seed
+```
+
 Note: After setup, JWT token must be generated after.
 
 ```shell
