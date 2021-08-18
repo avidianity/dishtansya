@@ -20,7 +20,7 @@ composer install
 Migrate database, seed products and setup queue (default queue driver is 'database')
 
 ```shell
-php artisan migrate -seed
+php artisan migrate --seed
 ```
 
 Note: After setup, JWT secret must be generated after.
